@@ -11,11 +11,8 @@ class TrianguloRectangulo():
         hipotenusa = round(hipotenusa, 2)
         return hipotenusa
 
-    #self._calculo_hipotenusa
-
     def __repr__(self):
         return f'El cateto primero es: {self.cateto1}. El segundo cateto es: {self.cateto2} ==> La hipotenusa vale: {self.calculo_hipotenusa}'
-
 
 
 # ----
