@@ -17,9 +17,12 @@ class TrianguloRectangulo():
         return f'El cateto primero es: {self.cateto1}. El segundo cateto es: {self.cateto2} ==> La hipotenusa vale: {self.calculo_hipotenusa}'
 
 
-mitriangulo = TrianguloRectangulo(4, 7)
 
-print(mitriangulo.calculo_hipotenusa)
+# ----
+primer_cateto  = int(input("Escribe la longitud del primer cateto: "))
+segundo_cateto = int(input("Escribe la longitud del primer cateto: "))
+
+mitriangulo = TrianguloRectangulo(primer_cateto, segundo_cateto)
 
 print(mitriangulo)
 
