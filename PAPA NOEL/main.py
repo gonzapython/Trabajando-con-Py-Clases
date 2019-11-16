@@ -16,3 +16,10 @@ nene.mostrar_lista()
 papa.aumentar_karma(nene,8)
 print('-------------------------')
 nene.mostrar_lista()
+
+# el niño elige los juguetes de la lista y se imprimen los juguetes elegidos
+nene.elegir_juguetes()
+
+
+
+
