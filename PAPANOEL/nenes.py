@@ -26,9 +26,9 @@ class Nene(object):
             print('EL NIÑO NO ESTA REGISTRADO EN EL SISTEMA')
 
     def elegir_juguetes(self):
-        elecion_juguete = int(input("Elige un juguete de la lista. Escribe el número y 'S' para acabar: > "))
+        elecion_juguete = int(input("Elige un juguete de la lista. Escribe el número y 'Ctrl-C' para acabar: > "))
         if elecion_juguete !='S':
-            juguete_elegido = juguetes[elecion_juguete])
+            juguete_elegido = juguetes[elecion_juguete]
             self.lista_de_deseos.append(juguete_elegido)
             #self.lista_de_deseos.append(juguetes[elecion_juguete])
 
