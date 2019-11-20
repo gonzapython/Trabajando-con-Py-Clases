@@ -6,8 +6,7 @@ CREATE TABLE juguetes (
     nombre              varchar NOT NULL,
     precio              INTEGER NOT NULL,
     edad_recomendada    INTEGER NOT NULL,
-    popularidad         INTEGER NOT NULL,
-    karma               INTEGER NOT NULL
+    popularidad         INTEGER NOT NULL
 );
 
 -- Tabla NENES
