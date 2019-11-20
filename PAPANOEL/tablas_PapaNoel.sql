@@ -36,6 +36,7 @@ CREATE TABLE deseos_nene (
 -- ===========
 CREATE TABLE papas (
     papa_id          INTEGER PRIMARY KEY,
+    nombre           varchar NOT NULL
     nene_a_su_cargo  INTEGER NOT NULL
     FOREIGN KEY papas_nenes_fk (nene_a_su_cargo)
       REFERENCES nenes (nene_id)
